@@ -1007,7 +1007,7 @@ section,
 }
 
 .resume .resume-item {
-  padding: 0 0 10px 10px;
+  padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
@@ -1024,7 +1024,7 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  padding: 5px 5px;
+  padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
@@ -1047,13 +1047,12 @@ section,
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 100px;
+  border-radius: 50px;
   left: -9px;
   top: 0;
   background: var(--background-color);
   border: 2px solid var(--accent-color);
 }
-
 
 /*--------------------------------------------------------------
 # Services Section
