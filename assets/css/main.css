@@ -998,17 +998,21 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+.resume {
+  padding: 20px; /* General padding for resume container */
+}
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px; /* Reduced from 20px */
+  margin-bottom: 10px; /* Reduced from 20px */
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
+  padding: 0 0 10px 20px; /* Reduced bottom padding from 20px */
+  margin-top: 0; /* Adjusted from -2px to 0 */
   border-left: 2px solid var(--accent-color);
   position: relative;
 }
@@ -1035,11 +1039,11 @@ section,
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 5px; /* Reduced from 10px */
 }
 
 .resume .resume-item:last-child {
-  padding-bottom: 0;
+  padding-bottom: 0; /* Ensures no extra space at the end */
 }
 
 .resume .resume-item::before {
