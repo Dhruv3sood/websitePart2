@@ -1035,7 +1035,7 @@ section,
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .resume .resume-item:last-child {
@@ -1047,7 +1047,7 @@ section,
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 100px;
   left: -9px;
   top: 0;
   background: var(--background-color);
