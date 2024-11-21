@@ -1011,6 +1011,7 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+  width: 80%
 }
 
 .resume .resume-item h4 {
